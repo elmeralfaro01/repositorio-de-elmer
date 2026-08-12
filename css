@@ -1,0 +1,63 @@
+.box{
+    background-color: rgb(15, 15, 15);
+    width: 200px;
+    height: 200px;
+    color: rgb(243, 16, 16);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center; /* vertical **/
+    justify-content: center; /* horizontal **/
+
+
+}
+/** selector universal */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color:rgb(84, 204, 37);
+    padding: 3rem;
+}
+.container{
+    background-color:rgb(6, 123, 219);
+    padding: 2rem;
+    max-width: 70%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+/* width: 100% */
+
+figure img{
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+.title{
+    margin: 1rem 0;
+    font-style: inherit;
+}
+.title:hover{
+    color: red;
+}
+.title::after{
+    content: "😊";
+}
+.paragraph{
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+/**alterando los elementos de la lista (los numeros)*/
+ol li::marker{
+    color:rgb(12, 216, 172);
+    font-weight: bold;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+
